@@ -7,7 +7,7 @@
 -Login/Signup 
     -Sign In/Signup Form
     -redirect to Browse Page
-- Browse(after authentication)
+-Browse(after authentication)
     -Header
     Main Movie
         -Trailer in Background

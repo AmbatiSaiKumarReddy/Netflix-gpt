@@ -1,10 +1,15 @@
 import React from 'react'
+import Header from './Header'
 
 const Browse = () => {
   return (
-    <div>
-      Browse
+    <div className='bg-red-500 h-screen'>
+
+     <Header/>
+    
+    
     </div>
+   
   )
 }
 

@@ -44,7 +44,7 @@ useEffect(()=>{
     })
   }
   return (
-    <div className={`flex justify-between ${user? 'relative' : 'absolute'}`}>
+    <div className="flex justify-between fixed z-50 w-full ">
      <div className='bg-gradient-to-b from-black  m-4' >
       <img  className='w-44'
         src={IMG_LOGO}
@@ -54,7 +54,7 @@ useEffect(()=>{
     {
       user && <div className='flex justify-center items-center'>
         <h1>{user.displayName}</h1>
-        <img  className="w-20" src={user.photoURL}/>
+        <img  className="w-20" src={user.photoURL} alt='profile-emoji'/>
       <button   onClick={signOutHandler} className='bg-green-600  p-2  m-2 font-bold border-r-slate-950 cursor-pointer rounded-lg'>Sign Out</button>
       </div>
     }

@@ -44,18 +44,18 @@ useEffect(()=>{
     })
   }
   return (
-    <div className="flex justify-between fixed z-50 w-full ">
+    <div className="flex justify-between w-full fixed bg-black  z-30  opacity-100 ">
      <div className='bg-gradient-to-b from-black  m-4' >
-      <img  className='w-44'
+      <img  className='w-44 '
         src={IMG_LOGO}
         alt="logo"/>
      </div>
 
     {
-      user && <div className='flex justify-center items-center'>
+      user && <div className='flex justify-center items-center mx-6 bg-gradient-to-b from-black'>
         <h1>{user.displayName}</h1>
-        <img  className="w-20" src={user.photoURL} alt='profile-emoji'/>
-      <button   onClick={signOutHandler} className='bg-green-600  p-2  m-2 font-bold border-r-slate-950 cursor-pointer rounded-lg'>Sign Out</button>
+        {/* <img  className="w-20" src={user.photoURL} alt='profile-emoji'/> */}
+      <button   onClick={signOutHandler} className='text-white bg-gray-900 p-3  m-2 font-bold border-r-slate-950 cursor-pointer rounded-lg'>Sign Out</button>
       </div>
     }
     

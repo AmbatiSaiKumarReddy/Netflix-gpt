@@ -1,8 +1,12 @@
 import React from 'react'
+import MoviesContainer from './MoviesContainer'
 
 const SecondaryContainer = () => {
   return (
-    <div>
+    <div className='-mt-24'>
+      <MoviesContainer/>
+     
+
       
     </div>
   )

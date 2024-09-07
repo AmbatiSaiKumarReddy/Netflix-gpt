@@ -8,14 +8,14 @@ const MainContainer = () => {
  // console.log(movies);
 
   if(movies===null) return;
-  const mainMovie=movies[0];
+  const mainMovie=movies[4];
   const {original_title,overview,id}=mainMovie;
  //console.log("------"+movies[0].original_title);
   
 
 
   return (
-    <div  className='relative h-screen'>
+    <div className='px-9'>
       
       <VideoTitle title={original_title} overview={overview} />
       <VideoBackground movieId={id}/>

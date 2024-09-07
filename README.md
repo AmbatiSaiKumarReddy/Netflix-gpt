@@ -29,6 +29,8 @@
 - Update store with trailer data
 - Embedded youtube video and make it autoplay and mute
 - Tailwind classes to make container look awesome
+- Build Secondary Component
+- customHooks(PopularMovies,topRated etc)
 
 # Features
 - Login/Signup 

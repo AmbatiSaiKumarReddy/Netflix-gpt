@@ -12,7 +12,7 @@ const Browse = () => {
   useNowPlayingMovies()
 
   return (
-    <div className='bg-red-500 h-screen relative'>
+    <div className='bg-black h-screen '>
 
      <Header/>
      {/* 
